@@ -18,6 +18,7 @@ import './commands'
 import './pages/vehicleDate.page'
 import './pages/insurantData.page'
 import './pages/productData.page'
+import './pages/priceOption.page'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
