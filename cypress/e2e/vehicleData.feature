@@ -8,4 +8,4 @@ Cenário: validacao aba Vehicle Data do site da Tricentis
         | Campo                       | Valor      |
         | Marca                      | Honda      |
         | Modelo                     | Motorcycle |
-    Então clico em next
+    Então clico em next sou direcionada para proxima aba

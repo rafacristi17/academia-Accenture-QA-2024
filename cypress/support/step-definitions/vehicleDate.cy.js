@@ -7,7 +7,7 @@ Given('que acesso o portal Tricents para uma cotacao de seguro veicular', () => 
         cy.preencherDadosVeiculo(dados);
     });
     
-    Then('clico em next', () => {
+    Then('clico em next sou direcionada para proxima aba', () => {
         cy.proximaPagina();
     });
     
