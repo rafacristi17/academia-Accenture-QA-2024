@@ -1,7 +1,7 @@
 #utf -8
 #language: pt
 
-Funcionalidade: Continuacao da Cotação de Seguro Veicular na aba Insurant
+Funcionalidade: Continuacao da Cotação de Seguro Veicular na aba Product
 
 Cenário: Continuar preenchendo os dados necessários para a cotação
    Dado que acesso o portal Tricents para uma cotacao de seguro veicular
@@ -15,4 +15,11 @@ Cenário: Continuar preenchendo os dados necessários para a cotação
         | pais              | Brazil           |
         | ocupacao          | Employee         |
         | hobbies           | Bungee Jumping   |
-    Então clico em next sou direcionada para a aba product data
+    E clico em next sou direcionada para a aba product data
+    E preencho os dados do produto:
+        | Campo             | Valor            |
+        | tipo de bonus     | Bonus 1          | 
+        | seguro de danos   | No Coverage      |
+        | opcionais         | Euro Protection  |
+        | carro cortesia    | Yes              |
+    Então clico em next sou direcionada para a aba opcoes de preco
