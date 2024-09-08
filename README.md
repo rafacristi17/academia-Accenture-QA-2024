@@ -44,10 +44,11 @@ Além disso, o repositório inclui um teste específico para verificar a valida�
 
 npm install
 
-3. Execute os testes : 
+3.  Para rodar os testes positivos descomente a linha de código :
+// import './pages/vehicleDataErro.page', que está no arquivo : e2e.js
 
+4. Execute os testes : 
     npx cypress open
-
 
 # Detalhes dos Testes
 
